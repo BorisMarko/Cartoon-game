@@ -7,10 +7,7 @@ public class InclusionGPUInstansing : MonoBehaviour
         MaterialPropertyBlock materialPropertyBlock = new MaterialPropertyBlock();
         MeshRenderer meshRenderer = GetComponent<MeshRenderer>();
         SkinnedMeshRenderer skinnedMeshRenderer = GetComponent<SkinnedMeshRenderer>();
-        if (meshRenderer != null)
-            meshRenderer.SetPropertyBlock(materialPropertyBlock);
-        else
-            skinnedMeshRenderer.SetPropertyBlock(materialPropertyBlock);
+        meshRenderer.SetPropertyBlock(materialPropertyBlock);
 
     }
 }
