@@ -395,6 +395,7 @@ Shader "SyntyStudios/VegitationShader"
 			Tags{ "LightMode" = "ShadowCaster" }
 			ZWrite On
 			CGPROGRAM
+			#pragma multi_compile_instancing
 			#pragma vertex vert
 			#pragma fragment frag
 			#pragma target 3.0
@@ -420,6 +421,7 @@ Shader "SyntyStudios/VegitationShader"
 				UNITY_VERTEX_INPUT_INSTANCE_ID
 				UNITY_VERTEX_OUTPUT_STEREO
 			};
+
 			v2f vert( appdata_full v )
 			{
 				v2f o;

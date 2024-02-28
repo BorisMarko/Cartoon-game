@@ -52,6 +52,7 @@ Shader "SyntyStudios/WaterShader"
 		_FoamGlowMultiplier("Foam Glow Multiplier", Float) = 1
 		[HideInInspector] _texcoord( "", 2D ) = "white" {}
 		[HideInInspector] __dirty( "", Int ) = 1
+		[PerRendererData]_Color ("Color", Color) = (0,0,0,1)
 	}
 
 	SubShader
