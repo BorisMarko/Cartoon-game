@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4906677805470635679}
   - component: {fileID: 7204899853268034133}
   - component: {fileID: 8251882228559855792}
-  - component: {fileID: 8301360970182396704}
+  - component: {fileID: 4190226092729746778}
   m_Layer: 0
   m_Name: SM_Prop_Bridge_01
   m_TagString: Untagged
@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.88414, y: 0.88414, z: 0.88414}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -107,7 +107,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3382778248618707080, guid: 1d100ea0aa6adbf46b92c274bb819555, type: 3}
---- !u!114 &8301360970182396704
+--- !u!114 &4190226092729746778
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

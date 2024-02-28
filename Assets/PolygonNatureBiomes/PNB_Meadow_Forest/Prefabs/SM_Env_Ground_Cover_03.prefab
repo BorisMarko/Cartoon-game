@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 1456067497232322355}
   - component: {fileID: 1180931905866113581}
   - component: {fileID: 6967750071678516092}
-  - component: {fileID: 2606395231281850725}
+  - component: {fileID: 3137003525409699512}
   m_Layer: 0
   m_Name: SM_Env_Ground_Cover_03_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1456067497232322355
 Transform:
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &2606395231281850725
+--- !u!114 &3137003525409699512
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,13 +107,13 @@ GameObject:
   - component: {fileID: 5249904264018140737}
   - component: {fileID: 8732687641243148234}
   - component: {fileID: 2474807970177487545}
-  - component: {fileID: 5243487902619793200}
+  - component: {fileID: 7441014136543164090}
   m_Layer: 0
   m_Name: SM_Env_Ground_Cover_03_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5249904264018140737
 Transform:
@@ -180,7 +180,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &5243487902619793200
+--- !u!114 &7441014136543164090
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -203,13 +203,13 @@ GameObject:
   - component: {fileID: 2953534613954937977}
   - component: {fileID: 5724778151908922279}
   - component: {fileID: 6711856799707177205}
-  - component: {fileID: 5916162070274956536}
+  - component: {fileID: 7779714537982608397}
   m_Layer: 0
   m_Name: SM_Env_Ground_Cover_03_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2953534613954937977
 Transform:
@@ -276,7 +276,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &5916162070274956536
+--- !u!114 &7779714537982608397
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -303,7 +303,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6639832492601548729
 Transform:
@@ -315,7 +315,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 0.84343004, y: 0.8434302, z: 0.84342986}
+  m_LocalScale: {x: 0.8660833, y: 0.86608326, z: 0.86608326}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5249904264018140737}
@@ -337,15 +337,15 @@ LODGroup:
   m_AnimateCrossFading: 1
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.3745402
+  - screenRelativeHeight: 0.08308764
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 2474807970177487545}
-  - screenRelativeHeight: 0.1034064
+  - screenRelativeHeight: 0.031078415
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 6711856799707177205}
-  - screenRelativeHeight: 0.04620634
+  - screenRelativeHeight: 0.0062740166
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 6967750071678516092}

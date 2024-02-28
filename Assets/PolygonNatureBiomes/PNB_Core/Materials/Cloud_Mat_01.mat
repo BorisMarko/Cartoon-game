@@ -94,6 +94,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AlphaCutoff: 0.5
     - _Big_Wave1: 1
     - _Big_WindAmount1: 1
     - _Big_Windspeed1: 0.5

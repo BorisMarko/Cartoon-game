@@ -11,12 +11,13 @@ GameObject:
   - component: {fileID: 1683807019075186690}
   - component: {fileID: 5268792832952498717}
   - component: {fileID: 8858451594272304171}
+  - component: {fileID: 4540068237535095775}
   m_Layer: 0
   m_Name: SM_Env_Bush_02_Leaves_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1683807019075186690
 Transform:
@@ -83,6 +84,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4540068237535095775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5838791905417648695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37364a3494eb85f42adbba6fb10ffb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5967575602731976848
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,12 +107,13 @@ GameObject:
   - component: {fileID: 1148673742311316453}
   - component: {fileID: 2466277208881230302}
   - component: {fileID: 7531379557949457974}
+  - component: {fileID: 4403539360486011530}
   m_Layer: 0
   m_Name: SM_Env_Bush_02_Leaves_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1148673742311316453
 Transform:
@@ -166,6 +180,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4403539360486011530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5967575602731976848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37364a3494eb85f42adbba6fb10ffb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6830783777150903518
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,12 +203,13 @@ GameObject:
   - component: {fileID: 5540168346058276600}
   - component: {fileID: 6663492276348488803}
   - component: {fileID: 1626003479117761426}
+  - component: {fileID: 2784967389082585222}
   m_Layer: 0
   m_Name: SM_Env_Bush_02_Branches_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5540168346058276600
 Transform:
@@ -249,6 +276,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2784967389082585222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6830783777150903518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37364a3494eb85f42adbba6fb10ffb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6906830690193866741
 GameObject:
   m_ObjectHideFlags: 0
@@ -264,7 +303,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6093983031678543183
 Transform:

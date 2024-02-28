@@ -12,13 +12,13 @@ GameObject:
   - component: {fileID: 2454743037115689806}
   - component: {fileID: 428977213513408388}
   - component: {fileID: 4519611596187263582}
-  - component: {fileID: 1410871742845626769}
+  - component: {fileID: 603002092187709512}
   m_Layer: 0
   m_Name: SM_Bld_Warpgate_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1567011173175125227
 Transform:
@@ -109,7 +109,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -106719679016471997, guid: b1aa99ce0d3a7b2458733c30beef1098, type: 3}
---- !u!114 &1410871742845626769
+--- !u!114 &603002092187709512
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,7 +137,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &3101853670360952875
 Transform:
@@ -220,7 +220,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &3027991145100273450
 Transform:

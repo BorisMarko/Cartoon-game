@@ -14,27 +14,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8147e7d3466b25c4e802c0d9749aeb4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 8.596
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8147e7d3466b25c4e802c0d9749aeb4e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.2575
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8147e7d3466b25c4e802c0d9749aeb4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 43.484
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8147e7d3466b25c4e802c0d9749aeb4e, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.53037274
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8147e7d3466b25c4e802c0d9749aeb4e, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8147e7d3466b25c4e802c0d9749aeb4e, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.8477646
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8147e7d3466b25c4e802c0d9749aeb4e, type: 3}
       propertyPath: m_LocalRotation.z
@@ -70,15 +70,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8147e7d3466b25c4e802c0d9749aeb4e, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4180250140441279266, guid: 8147e7d3466b25c4e802c0d9749aeb4e, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7366720450262467374, guid: 8147e7d3466b25c4e802c0d9749aeb4e, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -89,10 +89,13 @@ PrefabInstance:
       addedObject: {fileID: 9065336802612066980}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8147e7d3466b25c4e802c0d9749aeb4e, type: 3}
       insertIndex: -1
-      addedObject: {fileID: -4676108442971859432}
+      addedObject: {fileID: 6381372806275913280}
     - targetCorrespondingSourceObject: {fileID: 7366720450262467374, guid: 8147e7d3466b25c4e802c0d9749aeb4e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1180858572994308783}
+    - targetCorrespondingSourceObject: {fileID: 7366720450262467374, guid: 8147e7d3466b25c4e802c0d9749aeb4e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8258535520736161827}
   m_SourcePrefab: {fileID: 100100000, guid: 8147e7d3466b25c4e802c0d9749aeb4e, type: 3}
 --- !u!1 &3702341607186870446 stripped
 GameObject:
@@ -121,6 +124,27 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -4444762913633536408, guid: 5e0f07bb6cf0c9d46bc94cdd35b1c718, type: 2}
+--- !u!95 &8258535520736161827
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3702341607186870446}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c6df5c18065248f42a28e660b69decff, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6457015051466870481 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8147e7d3466b25c4e802c0d9749aeb4e, type: 3}
@@ -148,7 +172,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5634988260619311052, guid: 06be4d199567e6c42aec8d2872ba0a07, type: 2}
---- !u!114 &-4676108442971859432
+--- !u!114 &6381372806275913280
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

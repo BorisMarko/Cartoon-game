@@ -14,23 +14,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7f49dcc1a890ba04ca7db21e14565200, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: -48.73
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7f49dcc1a890ba04ca7db21e14565200, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7f49dcc1a890ba04ca7db21e14565200, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -131.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7f49dcc1a890ba04ca7db21e14565200, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9995298
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7f49dcc1a890ba04ca7db21e14565200, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.030663662
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7f49dcc1a890ba04ca7db21e14565200, type: 3}
       propertyPath: m_LocalRotation.y
@@ -42,7 +42,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7f49dcc1a890ba04ca7db21e14565200, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 3.5140002
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7f49dcc1a890ba04ca7db21e14565200, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -73,7 +73,7 @@ PrefabInstance:
       addedObject: {fileID: 5856171052706500860}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7f49dcc1a890ba04ca7db21e14565200, type: 3}
       insertIndex: -1
-      addedObject: {fileID: -7431191399681177780}
+      addedObject: {fileID: 8104076528038097897}
   m_SourcePrefab: {fileID: 100100000, guid: 7f49dcc1a890ba04ca7db21e14565200, type: 3}
 --- !u!1 &6145668825988325228 stripped
 GameObject:
@@ -102,7 +102,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -108245624311862844, guid: 7f49dcc1a890ba04ca7db21e14565200, type: 3}
---- !u!114 &-7431191399681177780
+--- !u!114 &8104076528038097897
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2211554112688051686
 Transform:
@@ -27,7 +27,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9646547, y: 0.96465504, z: 0.96465486}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3029275333659295933}
@@ -49,15 +49,15 @@ LODGroup:
   m_AnimateCrossFading: 1
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.8563388
+  - screenRelativeHeight: 0.23326425
     fadeTransitionWidth: 0.1
     renderers:
     - renderer: {fileID: 3833508183604350812}
-  - screenRelativeHeight: 0.64295673
+  - screenRelativeHeight: 0.0906708
     fadeTransitionWidth: 0.1
     renderers:
     - renderer: {fileID: 1806195147527725212}
-  - screenRelativeHeight: 0.022814967
+  - screenRelativeHeight: 0.015366539
     fadeTransitionWidth: 0.1
     renderers:
     - renderer: {fileID: 4368111329716719210}
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 3029275333659295933}
   - component: {fileID: 6242014892237418183}
   - component: {fileID: 3833508183604350812}
-  - component: {fileID: 5693300358664849273}
+  - component: {fileID: 5307152372804490302}
   m_Layer: 0
   m_Name: SM_Env_Grass_Tall_Clump_04_LOD0
   m_TagString: Untagged
@@ -124,7 +124,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3aca46e8ee6dda1459a54a1787458375, type: 2}
+  - {fileID: 2100000, guid: c604503c60e932a4fb5924b662b82aff, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -146,7 +146,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &5693300358664849273
+--- !u!114 &5307152372804490302
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -169,7 +169,7 @@ GameObject:
   - component: {fileID: 1816125610022131050}
   - component: {fileID: 4982709975356369531}
   - component: {fileID: 1806195147527725212}
-  - component: {fileID: 1751831536606086244}
+  - component: {fileID: 1661740145196375395}
   m_Layer: 0
   m_Name: SM_Env_Grass_Tall_Clump_04_LOD1
   m_TagString: Untagged
@@ -220,7 +220,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3aca46e8ee6dda1459a54a1787458375, type: 2}
+  - {fileID: 2100000, guid: c604503c60e932a4fb5924b662b82aff, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -242,7 +242,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1751831536606086244
+--- !u!114 &1661740145196375395
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -265,7 +265,7 @@ GameObject:
   - component: {fileID: 8625265195598003872}
   - component: {fileID: 3298033527070207371}
   - component: {fileID: 4368111329716719210}
-  - component: {fileID: 7437527531970878770}
+  - component: {fileID: 7521297261836349140}
   m_Layer: 0
   m_Name: SM_Env_Grass_Tall_Clump_04_LOD2
   m_TagString: Untagged
@@ -316,7 +316,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3aca46e8ee6dda1459a54a1787458375, type: 2}
+  - {fileID: 2100000, guid: c604503c60e932a4fb5924b662b82aff, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -338,7 +338,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &7437527531970878770
+--- !u!114 &7521297261836349140
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

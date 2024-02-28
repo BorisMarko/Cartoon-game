@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1927121338637558251}
   - component: {fileID: 4420975641873208609}
   - component: {fileID: -4807356282813230547}
-  - component: {fileID: 9055039103430319285}
+  - component: {fileID: 7487461340201932461}
   m_Layer: 0
   m_Name: SM_Bld_Stone_Cabin_01
   m_TagString: Untagged
@@ -107,7 +107,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6993348459113955287, guid: 3b300618946b45a48abefeea349d4e89, type: 3}
---- !u!114 &9055039103430319285
+--- !u!114 &7487461340201932461
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

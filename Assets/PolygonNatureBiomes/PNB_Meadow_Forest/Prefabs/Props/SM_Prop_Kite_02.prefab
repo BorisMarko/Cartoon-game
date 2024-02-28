@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 976433347054969770}
   - component: {fileID: 4189235379842427919}
   - component: {fileID: 2145912617717291205}
-  - component: {fileID: -623477728459906444}
+  - component: {fileID: 2579492051759012524}
   m_Layer: 0
   m_Name: SM_Prop_Kite_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &976433347054969770
 Transform:
@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.874, y: 0.8740001, z: 0.87399995}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &-623477728459906444
+--- !u!114 &2579492051759012524
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

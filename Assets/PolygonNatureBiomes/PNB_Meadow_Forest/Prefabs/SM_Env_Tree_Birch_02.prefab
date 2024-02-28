@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6035605255484460969}
   - component: {fileID: 5521904053978251530}
   - component: {fileID: 8262653308183919334}
+  - component: {fileID: 5195495073168462940}
   m_Layer: 0
   m_Name: SM_Env_Tree_Birch_02_LOD0
   m_TagString: Untagged
@@ -83,6 +84,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5195495073168462940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258847470279051813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37364a3494eb85f42adbba6fb10ffb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5127726477475916238
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,6 +107,7 @@ GameObject:
   - component: {fileID: 4585509253033794731}
   - component: {fileID: 3097441177180406635}
   - component: {fileID: 4592146552008279284}
+  - component: {fileID: 2434048710259601136}
   m_Layer: 0
   m_Name: SM_Env_Tree_Birch_02_LOD1
   m_TagString: Untagged
@@ -166,6 +180,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2434048710259601136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5127726477475916238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37364a3494eb85f42adbba6fb10ffb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5592075822852266847
 GameObject:
   m_ObjectHideFlags: 0
@@ -192,9 +218,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5592075822852266847}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8390846, y: 0.8390846, z: 0.8390846}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2110327237707638079}
@@ -271,6 +297,7 @@ GameObject:
   - component: {fileID: 6846206047549931097}
   - component: {fileID: 797945852619002104}
   - component: {fileID: 54566613362967640}
+  - component: {fileID: 9069759950187918349}
   m_Layer: 0
   m_Name: SM_Env_Tree_Birch_02_LOD2
   m_TagString: Untagged
@@ -343,6 +370,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &9069759950187918349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7287898975134784540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37364a3494eb85f42adbba6fb10ffb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8395226028218218983
 GameObject:
   m_ObjectHideFlags: 0
@@ -354,6 +393,7 @@ GameObject:
   - component: {fileID: 2110327237707638079}
   - component: {fileID: 1171590519970776908}
   - component: {fileID: 7844993387603133687}
+  - component: {fileID: 2140878191557668773}
   m_Layer: 0
   m_Name: SM_Env_Tree_Birch_02_Branches_LOD0
   m_TagString: Untagged
@@ -426,6 +466,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2140878191557668773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8395226028218218983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37364a3494eb85f42adbba6fb10ffb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8671747476617348610
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,6 +489,7 @@ GameObject:
   - component: {fileID: 6034202982656289308}
   - component: {fileID: 8190311410405374905}
   - component: {fileID: 2722828431853561642}
+  - component: {fileID: 6719393325674647081}
   m_Layer: 0
   m_Name: SM_Env_Tree_Birch_02_Branches_LOD1
   m_TagString: Untagged
@@ -509,6 +562,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6719393325674647081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8671747476617348610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37364a3494eb85f42adbba6fb10ffb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8756651802772931231
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,6 +585,7 @@ GameObject:
   - component: {fileID: 4017018670021705207}
   - component: {fileID: 8709299380567707612}
   - component: {fileID: 4833613667383035372}
+  - component: {fileID: 7461828552274554215}
   m_Layer: 0
   m_Name: SM_Env_Tree_Birch_02_LOD3
   m_TagString: Untagged
@@ -592,3 +658,15 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7461828552274554215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8756651802772931231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37364a3494eb85f42adbba6fb10ffb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

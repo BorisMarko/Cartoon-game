@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7455397382988721356}
   - component: {fileID: 4652802404100315142}
   - component: {fileID: -6709535848991489390}
-  - component: {fileID: 5959459346933813839}
+  - component: {fileID: 411009689705570462}
   m_Layer: 0
   m_Name: SM_Prop_Birdhouse_02
   m_TagString: Untagged
@@ -107,7 +107,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4322921060979726527, guid: 8aa74b947e75f2d41a318c5b45407154, type: 3}
---- !u!114 &5959459346933813839
+--- !u!114 &411009689705570462
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

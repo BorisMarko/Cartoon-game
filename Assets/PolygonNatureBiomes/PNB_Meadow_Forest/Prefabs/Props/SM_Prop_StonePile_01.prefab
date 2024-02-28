@@ -13,16 +13,28 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fde7fb4cd69b9204698813cfc10b0295, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4544
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fde7fb4cd69b9204698813cfc10b0295, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4544
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fde7fb4cd69b9204698813cfc10b0295, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.4544
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fde7fb4cd69b9204698813cfc10b0295, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -145.98
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fde7fb4cd69b9204698813cfc10b0295, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 17.131
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fde7fb4cd69b9204698813cfc10b0295, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -33.528687
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fde7fb4cd69b9204698813cfc10b0295, type: 3}
       propertyPath: m_LocalRotation.w
@@ -30,7 +42,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fde7fb4cd69b9204698813cfc10b0295, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fde7fb4cd69b9204698813cfc10b0295, type: 3}
       propertyPath: m_LocalRotation.y
@@ -73,7 +85,7 @@ PrefabInstance:
       addedObject: {fileID: 4146963994849987576}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fde7fb4cd69b9204698813cfc10b0295, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5589064942261484663}
+      addedObject: {fileID: 43653588548501198}
   m_SourcePrefab: {fileID: 100100000, guid: fde7fb4cd69b9204698813cfc10b0295, type: 3}
 --- !u!1 &3621875773770697450 stripped
 GameObject:
@@ -102,7 +114,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -3738611707418628553, guid: facca6b539f6ad044a4fe81425a5e082, type: 2}
---- !u!114 &5589064942261484663
+--- !u!114 &43653588548501198
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

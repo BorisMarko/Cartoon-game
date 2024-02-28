@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3718844172733861113}
   - component: {fileID: 4184103585789683066}
   - component: {fileID: 1403973500466302098}
+  - component: {fileID: 5629221985082219964}
   m_Layer: 0
   m_Name: SM_Env_Tree_Meadow_02_Branches_LOD0
   m_TagString: Untagged
@@ -83,6 +84,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5629221985082219964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949072061445121199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37364a3494eb85f42adbba6fb10ffb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1328376544411004051
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,6 +107,7 @@ GameObject:
   - component: {fileID: 2599698710045422207}
   - component: {fileID: 8049880562101688807}
   - component: {fileID: 2354010896675923003}
+  - component: {fileID: 4768557606281595805}
   m_Layer: 0
   m_Name: SM_Env_Tree_Meadow_02_Branches_LOD1
   m_TagString: Untagged
@@ -166,6 +180,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4768557606281595805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328376544411004051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37364a3494eb85f42adbba6fb10ffb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1416220945154128719
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,6 +203,7 @@ GameObject:
   - component: {fileID: 2588517272643779344}
   - component: {fileID: 3763457733528378248}
   - component: {fileID: 6758748790069815361}
+  - component: {fileID: 1792595028952508696}
   m_Layer: 0
   m_Name: SM_Env_Tree_Meadow_02_LOD2
   m_TagString: Untagged
@@ -249,6 +276,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1792595028952508696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416220945154128719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37364a3494eb85f42adbba6fb10ffb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1903517386908257940
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,6 +299,7 @@ GameObject:
   - component: {fileID: 3764777947670611781}
   - component: {fileID: 4281575883965314770}
   - component: {fileID: 4949552330193500568}
+  - component: {fileID: 8346088409323665419}
   m_Layer: 0
   m_Name: SM_Env_Tree_Meadow_02_Branches_LOD2
   m_TagString: Untagged
@@ -332,6 +372,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8346088409323665419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903517386908257940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37364a3494eb85f42adbba6fb10ffb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2146921750331591826
 GameObject:
   m_ObjectHideFlags: 0
@@ -360,7 +412,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9502417, y: 0.9502417, z: 0.9502417}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3718844172733861113}
@@ -386,17 +438,17 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.5636698
+  - screenRelativeHeight: 0.3086958
     fadeTransitionWidth: 0.1
     renderers:
     - renderer: {fileID: 1403973500466302098}
     - renderer: {fileID: 4029566444554595018}
-  - screenRelativeHeight: 0.41670656
+  - screenRelativeHeight: 0.125
     fadeTransitionWidth: 0.1
     renderers:
     - renderer: {fileID: 2354010896675923003}
     - renderer: {fileID: 2152519761844161922}
-  - screenRelativeHeight: 0.10446829
+  - screenRelativeHeight: 0.03917076
     fadeTransitionWidth: 0.1
     renderers:
     - renderer: {fileID: 4949552330193500568}
@@ -439,6 +491,7 @@ GameObject:
   - component: {fileID: 1328038582577948670}
   - component: {fileID: 8392301920694038876}
   - component: {fileID: 2152519761844161922}
+  - component: {fileID: 7484154896956710505}
   m_Layer: 0
   m_Name: SM_Env_Tree_Meadow_02_LOD1
   m_TagString: Untagged
@@ -511,6 +564,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7484154896956710505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3887806092207855691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37364a3494eb85f42adbba6fb10ffb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5955905635758623741
 GameObject:
   m_ObjectHideFlags: 0
@@ -522,6 +587,7 @@ GameObject:
   - component: {fileID: 1576962407394295480}
   - component: {fileID: 2637793437219064122}
   - component: {fileID: 4029566444554595018}
+  - component: {fileID: 9022681536205297429}
   m_Layer: 0
   m_Name: SM_Env_Tree_Meadow_02_LOD0
   m_TagString: Untagged
@@ -594,6 +660,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &9022681536205297429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5955905635758623741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37364a3494eb85f42adbba6fb10ffb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8437406725559451716
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,6 +683,7 @@ GameObject:
   - component: {fileID: 3555041654871137191}
   - component: {fileID: 1831318972199173025}
   - component: {fileID: 3054710255140172865}
+  - component: {fileID: 7634452656178685180}
   m_Layer: 0
   m_Name: SM_Env_Tree_Meadow_02_LOD3
   m_TagString: Untagged
@@ -677,3 +756,15 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7634452656178685180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8437406725559451716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37364a3494eb85f42adbba6fb10ffb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

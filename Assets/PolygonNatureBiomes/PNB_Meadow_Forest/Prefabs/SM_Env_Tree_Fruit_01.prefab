@@ -26,9 +26,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2452613710419899469}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.4514009, y: 1.4514012, z: 1.4514009}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3831198495985503783}
@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 3831198495985503783}
   - component: {fileID: 8595585094576364543}
   - component: {fileID: 6962542459512288726}
+  - component: {fileID: 8976179224477740364}
   m_Layer: 0
   m_Name: SM_Env_Tree_Fruit_01_LOD0
   m_TagString: Untagged
@@ -168,6 +169,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8976179224477740364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2657905270868901799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37364a3494eb85f42adbba6fb10ffb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4987919353338166810
 GameObject:
   m_ObjectHideFlags: 0
@@ -179,6 +192,7 @@ GameObject:
   - component: {fileID: 1714300914338143621}
   - component: {fileID: 3856215826608529988}
   - component: {fileID: 3920303087830386076}
+  - component: {fileID: 197876242982007987}
   m_Layer: 0
   m_Name: SM_Env_Tree_Fruit_01_LOD2
   m_TagString: Untagged
@@ -251,6 +265,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &197876242982007987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4987919353338166810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37364a3494eb85f42adbba6fb10ffb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5978747430953909192
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,6 +288,7 @@ GameObject:
   - component: {fileID: 426775724720842143}
   - component: {fileID: 4773014812321857827}
   - component: {fileID: 5944899567380154093}
+  - component: {fileID: 7319129581469196380}
   m_Layer: 0
   m_Name: SM_Env_Tree_Fruit_01_LOD1
   m_TagString: Untagged
@@ -334,3 +361,15 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7319129581469196380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5978747430953909192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37364a3494eb85f42adbba6fb10ffb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 1521155570308229868}
   - component: {fileID: 2500590139980064073}
   - component: {fileID: 384800697776591235}
-  - component: {fileID: 2899381009648342580}
+  - component: {fileID: 7548059381055455835}
   m_Layer: 0
   m_Name: SM_Env_Flowers_Flat_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1521155570308229868
 Transform:
@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0475796, y: 1.408785, z: 1.0475796}
+  m_LocalScale: {x: 0.84828377, y: 1.354539, z: 0.848284}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 925386dfa2892df40a367d980f8af1f6, type: 2}
+  - {fileID: 2100000, guid: d248f9e5e80452a4bbe140d2ad5cf0f4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &2899381009648342580
+--- !u!114 &7548059381055455835
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

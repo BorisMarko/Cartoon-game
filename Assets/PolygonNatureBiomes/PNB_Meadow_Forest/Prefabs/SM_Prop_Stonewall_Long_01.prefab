@@ -11,12 +11,13 @@ GameObject:
   - component: {fileID: 7638358883789207793}
   - component: {fileID: 9128510860533347109}
   - component: {fileID: 2236345924500442722}
+  - component: {fileID: 8006623467644612821}
   m_Layer: 0
   m_Name: SM_Prop_Stonewall_Long_01_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7638358883789207793
 Transform:
@@ -83,6 +84,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8006623467644612821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814866895957181191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37364a3494eb85f42adbba6fb10ffb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5635645407802163084
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,12 +107,13 @@ GameObject:
   - component: {fileID: 4775957312346715783}
   - component: {fileID: 7231628612618324116}
   - component: {fileID: 850124176572132709}
+  - component: {fileID: 7870838061656111260}
   m_Layer: 0
   m_Name: SM_Prop_Stonewall_Long_01_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4775957312346715783
 Transform:
@@ -166,6 +180,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7870838061656111260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5635645407802163084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37364a3494eb85f42adbba6fb10ffb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7644362542474681750
 GameObject:
   m_ObjectHideFlags: 0
@@ -182,7 +208,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7016022830637713196
 Transform:
@@ -216,15 +242,15 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.45716688
+  - screenRelativeHeight: 0.2719671
     fadeTransitionWidth: 0.1
     renderers:
     - renderer: {fileID: 4673507000478722422}
-  - screenRelativeHeight: 0.19269806
+  - screenRelativeHeight: 0.07621185
     fadeTransitionWidth: 0.1
     renderers:
     - renderer: {fileID: 2236345924500442722}
-  - screenRelativeHeight: 0.09807588
+  - screenRelativeHeight: 0.01
     fadeTransitionWidth: 0.1
     renderers:
     - renderer: {fileID: 850124176572132709}
@@ -261,12 +287,13 @@ GameObject:
   - component: {fileID: 5941433143439551070}
   - component: {fileID: 6002382198026731419}
   - component: {fileID: 4673507000478722422}
+  - component: {fileID: 1846608299538819216}
   m_Layer: 0
   m_Name: SM_Prop_Stonewall_Long_01_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5941433143439551070
 Transform:
@@ -333,3 +360,15 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1846608299538819216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8452183885800075456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37364a3494eb85f42adbba6fb10ffb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

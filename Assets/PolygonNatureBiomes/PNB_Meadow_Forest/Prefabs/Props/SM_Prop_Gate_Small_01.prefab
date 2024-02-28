@@ -12,13 +12,13 @@ GameObject:
   - component: {fileID: 820545771717178625}
   - component: {fileID: 3208776534109602251}
   - component: {fileID: 8647644217035289223}
-  - component: {fileID: -8509816632164800678}
+  - component: {fileID: 1180898294489817185}
   m_Layer: 0
   m_Name: SM_Prop_Gate_Small_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &4381142195934706340
 Transform:
@@ -108,7 +108,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4247701690508471856, guid: e0b71fe55760edd42acaad77d13c2e46, type: 3}
---- !u!114 &-8509816632164800678
+--- !u!114 &1180898294489817185
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,7 +137,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &3552240478848158290
 Transform:

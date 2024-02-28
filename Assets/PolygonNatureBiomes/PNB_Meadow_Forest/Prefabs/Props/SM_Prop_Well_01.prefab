@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1339662284078720318}
   - component: {fileID: 3851590288855323124}
   - component: {fileID: 8921493606110049843}
-  - component: {fileID: -8909286174838726878}
+  - component: {fileID: 2248788733300527431}
   m_Layer: 0
   m_Name: SM_Prop_Well_01
   m_TagString: Untagged
@@ -107,7 +107,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5893104357664465159, guid: d23d0243e2fe4f94fb7d85bc874275f8, type: 3}
---- !u!114 &-8909286174838726878
+--- !u!114 &2248788733300527431
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

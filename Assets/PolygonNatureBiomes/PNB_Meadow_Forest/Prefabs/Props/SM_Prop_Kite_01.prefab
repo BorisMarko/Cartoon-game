@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 7636928402990541216}
   - component: {fileID: 6797069277604652549}
   - component: {fileID: 8768786888082870991}
-  - component: {fileID: -7361483990478062564}
+  - component: {fileID: 6767656171121424741}
   m_Layer: 0
   m_Name: SM_Prop_Kite_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &7636928402990541216
 Transform:
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &-7361483990478062564
+--- !u!114 &6767656171121424741
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

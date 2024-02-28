@@ -11,8 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: 6697e1f185bc8b840a2f02567abf15b5, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - LOD_FADE_CROSSFADE
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 1
@@ -170,6 +169,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AlphaCutoff: 0.5
     - _Big_Wave: 10
     - _Big_WindAmount: 1.22
     - _Big_Windspeed: 1.84
@@ -198,8 +198,8 @@ Material:
     - _JitterAmount: 0.552
     - _JitterFreq: 0.19
     - _LOD_FADE_CROSSFADE: 1
-    - _LOD_FADE_CROSSFADE_in: 1
-    - _LOD_FADE_CROSSFADE_out: 1
+    - _LOD_FADE_CROSSFADE_in: 0
+    - _LOD_FADE_CROSSFADE_out: 0
     - _LeafBigNoiseAmount: 0.184
     - _LeafBigNoiseScale: 1
     - _LeafFlatColourSwitch: 0

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 360679600805720029}
   - component: {fileID: 2514578035161815831}
   - component: {fileID: -2007008142440995268}
-  - component: {fileID: 553515217642577041}
+  - component: {fileID: 8299476516795289001}
   m_Layer: 0
   m_Name: SM_Prop_HorseHitch_01
   m_TagString: Untagged
@@ -107,7 +107,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8346679054580549624, guid: 253f1b93e0633ce44a1e5384c20dc707, type: 3}
---- !u!114 &553515217642577041
+--- !u!114 &8299476516795289001
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -12,13 +12,13 @@ GameObject:
   - component: {fileID: 5694440970481485959}
   - component: {fileID: 7557674238835571789}
   - component: {fileID: -8824071333930935210}
-  - component: {fileID: 7745503199729870346}
+  - component: {fileID: 5839959439372696796}
   m_Layer: 0
   m_Name: SM_Bld_Windmill_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8694599788772312866
 Transform:
@@ -108,7 +108,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3878970693692154590, guid: 365215b0306b97d45baa9a9034ccbae9, type: 3}
---- !u!114 &7745503199729870346
+--- !u!114 &5839959439372696796
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 7212226309501268358}
   - component: {fileID: 1856191059069863757}
   - component: {fileID: 6662674776577473368}
+  - component: {fileID: 300585367618816354}
   m_Layer: 0
   m_Name: SM_Bld_Windmill_01_Blades_01
   m_TagString: Untagged
@@ -203,3 +204,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!95 &300585367618816354
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9078733911232466506}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bdffc66125d9b2142baa97af7460de1e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

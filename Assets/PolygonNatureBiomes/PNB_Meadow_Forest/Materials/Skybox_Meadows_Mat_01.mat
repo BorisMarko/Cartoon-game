@@ -13,7 +13,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 0
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -29,6 +29,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AlphaCutoff: 0.5
     - _Distance: 1173.37
     - _Falloff: 1
     - _Offset: 32.29
@@ -37,4 +38,5 @@ Material:
     m_Colors:
     - _ColorBottom: {r: 1, g: 0.9475583, b: 0.9009434, a: 0}
     - _ColorTop: {r: 0.03137255, g: 0.26666668, b: 0.5803922, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

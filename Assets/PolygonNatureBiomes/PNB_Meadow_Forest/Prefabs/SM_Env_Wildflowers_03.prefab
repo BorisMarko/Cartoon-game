@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 585784124347810206}
   - component: {fileID: 3522127911876358170}
   - component: {fileID: 1665539343026541820}
-  - component: {fileID: 2737058134830753031}
+  - component: {fileID: 4453485420143955126}
   m_Layer: 0
   m_Name: SM_Env_Wildflowers_03_LOD2
   m_TagString: Untagged
@@ -69,7 +69,7 @@ MeshRenderer:
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 0.31285614
+  m_ScaleInLightmap: 1
   m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &2737058134830753031
+--- !u!114 &4453485420143955126
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 6507847087768024456}
   - component: {fileID: 456471890325635631}
   - component: {fileID: 2592488296184549731}
-  - component: {fileID: 1404570314021093920}
+  - component: {fileID: 3785044583099777140}
   m_Layer: 0
   m_Name: SM_Env_Wildflowers_03_LOD1
   m_TagString: Untagged
@@ -165,7 +165,7 @@ MeshRenderer:
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 0.79465026
+  m_ScaleInLightmap: 1
   m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
@@ -180,7 +180,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1404570314021093920
+--- !u!114 &3785044583099777140
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -219,7 +219,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 0.98882484, y: 0.988825, z: 0.988825}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5958504807505416802}
@@ -245,11 +245,11 @@ LODGroup:
     fadeTransitionWidth: 0.1
     renderers:
     - renderer: {fileID: 1246047148796053193}
-  - screenRelativeHeight: 0.15107827
+  - screenRelativeHeight: 0.078214034
     fadeTransitionWidth: 0.1
     renderers:
     - renderer: {fileID: 2592488296184549731}
-  - screenRelativeHeight: 0.05245241
+  - screenRelativeHeight: 0.0052238298
     fadeTransitionWidth: 0.1
     renderers:
     - renderer: {fileID: 1665539343026541820}
@@ -265,7 +265,7 @@ GameObject:
   - component: {fileID: 5958504807505416802}
   - component: {fileID: 6526415542608240871}
   - component: {fileID: 1246047148796053193}
-  - component: {fileID: 4506919282313003533}
+  - component: {fileID: 7334749394078888266}
   m_Layer: 0
   m_Name: SM_Env_Wildflowers_03_LOD0
   m_TagString: Untagged
@@ -338,7 +338,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &4506919282313003533
+--- !u!114 &7334749394078888266
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

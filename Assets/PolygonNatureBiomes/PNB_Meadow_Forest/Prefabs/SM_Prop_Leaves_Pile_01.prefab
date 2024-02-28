@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5489726364100060437}
   - component: {fileID: 8899313660120853168}
   - component: {fileID: 6657518538591837818}
-  - component: {fileID: 6353605214867372473}
+  - component: {fileID: 1575709050386279508}
   m_Layer: 0
   m_Name: SM_Prop_Leaves_Pile_01
   m_TagString: Untagged
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &6353605214867372473
+--- !u!114 &1575709050386279508
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
