@@ -30,7 +30,6 @@ public class HealthView : MonoBehaviour
     {
         _healthView.text = $"{_health.CurrentHealth}/{_health.MaxHealth}";
         _healthbar.value = _health.CurrentHealth;
-
     }
 
     private void HandleDeath()
