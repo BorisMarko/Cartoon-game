@@ -4,7 +4,9 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     [Header("Health stats")]
+    [SerializeField] private HealthBar _healthBar;
     [SerializeField] private int _maxHealth = 100;
+
     private int _currentHealth;
 
     public event Action<float> HealthChanged;
@@ -42,10 +44,14 @@ public class Health : MonoBehaviour
         if (_currentHealth <= 0)
         {
             _currentHealth = 0;
+            _healthBar.gameObject.SetActive(false);
             Death(); //Дописать метод для смерти.
         }
         else
         {
+            if (_healthBar.gameObject == false) 
+                _healthBar.gameObject.SetActive(true);
+
             float _currentHealthAsPercantage = (float)_currentHealth / _maxHealth;
             HealthChanged?.Invoke(_currentHealthAsPercantage);
         }

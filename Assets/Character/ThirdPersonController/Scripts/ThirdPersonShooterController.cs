@@ -19,18 +19,26 @@ public class ThirdPersonShooterController : MonoBehaviour
 
     private void Awake()
     {
-        _health.HealthChanged += OnHealthChanged;
-        _healthText.text = $"{_health.CurrentHealth}/{_health.MaxHealth}"; /* —делал это тут, а не в классе Health потому, что мне не нужно чтобы у врага текстом отображалось кол-во хп.
-                                                                           ЌанесЄнный урон можно будет сделать через партиклы.
-                                                                           ѕока сойдет, но в будующем нужно будет изменить, т.к.
-                                                                           данное решение не очень */
         _thirdPersonController = GetComponent<ThirdPersonController>();
         _starterAssetsInputs = GetComponent<StarterAssetsInputs>();
     }
 
-    private void OnDestroy()
+    private void OnEnable()
+    {
+        _health.HealthChanged += OnHealthChanged;
+    }
+
+    private void OnDisable()
     {
         _health.HealthChanged -= OnHealthChanged;
+    }
+
+    private void Start()
+    {
+        _healthText.text = $"{_health.CurrentHealth}/{_health.MaxHealth}"; /* —делал это тут, а не в классе Health потому, что мне не нужно чтобы у врага текстом отображалось кол-во хп.
+                                                                           ЌанесЄнный урон можно будет сделать через партиклы.
+                                                                           ѕока сойдет, но в будующем нужно будет изменить, т.к.
+                                                                           данное решение не очень */
     }
 
     private void Update()
@@ -52,7 +60,5 @@ public class ThirdPersonShooterController : MonoBehaviour
     private void OnHealthChanged(float valueAsPercantage)
     {
         _healthText.text = $"{_health.CurrentHealth}/{_health.MaxHealth}";
-        if (_health.CurrentHealth == 0) 
-            _healthText.text = "";
     }
 }
