@@ -1,12 +1,15 @@
 using Cinemachine;
 using StarterAssets;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ThirdPersonShooterController : MonoBehaviour
 {
     [SerializeField] private CinemachineVirtualCamera _aimVirtualCamera;
-    [SerializeField] private Image _image;
+    [SerializeField] private Health _health;
+    [SerializeField] private TextMeshProUGUI _healthText;
+    [SerializeField] private Image _crossair;
     [Header("Sensitivity")]
     [SerializeField, Min(0)] private float _normalSensitivity;
     [SerializeField, Min(0)] private float _aimlSensitivity;
@@ -16,8 +19,18 @@ public class ThirdPersonShooterController : MonoBehaviour
 
     private void Awake()
     {
+        _health.HealthChanged += OnHealthChanged;
+        _healthText.text = $"{_health.CurrentHealth}/{_health.MaxHealth}"; /* —делал это тут, а не в классе Health потому, что мне не нужно чтобы у врага текстом отображалось кол-во хп.
+                                                                           ЌанесЄнный урон можно будет сделать через партиклы.
+                                                                           ѕока сойдет, но в будующем нужно будет изменить, т.к.
+                                                                           данное решение не очень */
         _thirdPersonController = GetComponent<ThirdPersonController>();
         _starterAssetsInputs = GetComponent<StarterAssetsInputs>();
+    }
+
+    private void OnDestroy()
+    {
+        _health.HealthChanged -= OnHealthChanged;
     }
 
     private void Update()
@@ -26,13 +39,20 @@ public class ThirdPersonShooterController : MonoBehaviour
         {
             _aimVirtualCamera.gameObject.SetActive(true);
             _thirdPersonController.SetSensitivity(_aimlSensitivity);
-            _image.gameObject.SetActive(true);
+            _crossair.gameObject.SetActive(true);
         }
-        else 
+        else
         {
             _thirdPersonController.SetSensitivity(_normalSensitivity);
             _aimVirtualCamera.gameObject.SetActive(false);
-            _image.gameObject.SetActive(false);
+            _crossair.gameObject.SetActive(false);
         }
+
+    }
+    private void OnHealthChanged(float valueAsPercantage)
+    {
+        _healthText.text = $"{_health.CurrentHealth}/{_health.MaxHealth}";
+        if (_health.CurrentHealth == 0) 
+            _healthText.text = "";
     }
 }
